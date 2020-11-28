@@ -1,0 +1,23 @@
+#myhover a {
+  position: absolute;
+  right: -280px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 262px;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: 'Monoton', cursive;
+  text-shadow: black 0px 1px, purple 0px 2px, pink 0px 3px;
+  src: url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+  color: white;
+  border-radius: 5 5px 5px 5;
+}
+
+#myhover a:hover {
+  right: 0;
+}
+
+#modtab {
+  top: 200px;
+  background-color: #555
+}
